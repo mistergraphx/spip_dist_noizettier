@@ -1,0 +1,7 @@
+<page>
+    <nom>404</nom>
+    <icon>error.png</icon>
+    <bloc id="content" nom="content"  description="Contenu principal de la page"  icon="img/fichier.png" />
+    <bloc id="aside" nom="aside"  description="Contenu annexe de la page"  icon="img/fichier.png" />
+</page>
+

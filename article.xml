@@ -1,0 +1,7 @@
+<page>
+    <nom>Article</nom>
+    <icon>article-24.png</icon>
+    <bloc id="content" nom="content"  description="Contenu principal de l'article"  icon="img/fichier.png" />
+    <bloc id="aside" nom="aside"  description="Contenu annexe de l'article"  icon="img/fichier.png" />
+</page>
+

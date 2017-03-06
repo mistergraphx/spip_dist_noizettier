@@ -1,0 +1,13 @@
+[(#REM) <!--
+
+@param bloc         - identifiant du bloc
+@param type         - page
+@param composition  - composition
+
+
+-->]
+[(#ENV{voir}|=={noisettes}|et{#AUTORISER{configurer,noizetier}}|oui)
+    <INCLURE{fond=noizetier-generer-bloc-voir-noisettes}{bloc=#ENV{bloc}}{type=#ENV{type}}{composition=#ENV{composition}}{env}>
+][(#ENV{voir}|=={noisettes}|et{#AUTORISER{configurer,noizetier}}|non)
+    <INCLURE{fond=noizetier-generer-bloc}{bloc=#ENV{bloc}}{type=#ENV{type}}{composition=#ENV{composition}}{env}>
+]

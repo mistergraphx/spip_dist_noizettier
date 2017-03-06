@@ -1,0 +1,6 @@
+<page>
+    <nom>Sommaire</nom>
+    <icon>sommaire-24.png</icon>
+    <bloc id="content" nom="content"  description="Bloc Content"  icon="img/fichier.png" />
+    <bloc id="aside" nom="aside"  description="Bloc Aside"  icon="img/fichier.png" />
+</page>
